@@ -1,0 +1,17 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+footer {
+    background: #333;
+    padding: 10px 0;
+    text-align: center;
+    border: none;
+}
+footer a {
+    color: #70726F;
+    font-size: 40px;
+    padding: 10px;
+    transition: all .5s ease;
+
+}
+footer a:hover {
+    color: white;
+}

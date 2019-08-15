@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Abel&display=swap");
+.image-cat {
+    position: relative;
+    background-image: url("../images/main1.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+h1 {
+    margin: 2em;
+    color:#cfc7c7;
+    font-size: 7em;
+    font-family: 'Abel', sans-serif;
+}
