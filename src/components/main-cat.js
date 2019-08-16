@@ -12,6 +12,11 @@ export default class Example extends React.Component {
                         <h1>Hello.<br/>I'm Yulia Meow.</h1>
                     </Col>
                 </Row>
+                <div className="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
             
         )
