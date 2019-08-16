@@ -4,7 +4,6 @@ import {
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  CarouselCaption,
   Row, Col
 } from 'reactstrap'
 import respons from './images/qualities/respons.png'
@@ -74,13 +73,12 @@ const items = [
   
       const slides = items.map((item) => {
         return (
-          <CarouselItem carousel-caption d-none d-block w='100' h='50'
+          <CarouselItem
             onExiting={this.onExiting}
             onExited={this.onExited}
             key={item.src}
           >
             <img src={item.src} alt={item.altText} />
-            <CarouselCaption captionText={item.caption} />
           </CarouselItem>
         );
       });
