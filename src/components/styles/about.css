@@ -1,14 +1,11 @@
 .about {
     margin-top: 5em;
     margin-bottom: 5em;
-    padding: 4em;
     text-align: center;
     position: relative;
 }
 h3 {
     margin: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
     position: relative;
     font-family: 'Open Sans Condensed', sans-serif;
     color:rgb(44, 44, 44);

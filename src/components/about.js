@@ -1,11 +1,11 @@
 import React from 'react'
-import { Row, Col } from 'reactstrap'
+import { Row, Col, Container } from 'reactstrap'
 
 import './styles/about.css'
 export default class Example extends React.Component {
     render() {
         return (
-            <div className='about' href="/about/">
+            <Container className='about' href="/about/">
                 <Row>
                     <Col lg='12' col-md='12' col-sm='12'> 
                         <h2>Обо мне</h2>
@@ -18,7 +18,7 @@ export default class Example extends React.Component {
                             </h3>
                     </Col>
                 </Row>
-            </div>
+            </Container>
             
         )
     }
