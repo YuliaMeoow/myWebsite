@@ -25,15 +25,15 @@ export default class Example extends React.Component {
     }
     componentDidMount(){
         const nodes = [
-            {id: 1, shape: 'circularImage', image: html5Icon , title: 'I have a popup!'},
-            {id: 2, shape: 'circularImage', image: css3Icon , title: 'I have a popup!'},
-            {id: 3, shape: 'circularImage', image: jsIcon , title: 'I have a popup!'},
-            {id: 4, shape: 'circularImage', image: gitIcon , title: 'I have a popup!'},
-            {id: 5, shape: 'circularImage', image: bootstrapIcon , title: 'I have a popup!'},
-            {id: 6, shape: 'circularImage', image: sqlIcon , title: 'Здесь не применялся, но я его немного знаю'},
+            {id: 1, shape: 'circularImage', image: html5Icon , title: 'Люблю верстать'},
+            {id: 2, shape: 'circularImage', image: css3Icon , title: 'Очень люблю верстать.'},
+            {id: 3, shape: 'circularImage', image: jsIcon , title: 'Начинающий javaScript ниндзя'},
+            {id: 4, shape: 'circularImage', image: gitIcon , title: 'Знаю основы и простейшие команды'},
+            {id: 5, shape: 'circularImage', image: bootstrapIcon , title: 'Для сайта использовала реализацию Bootstrap 4 Для React'},
+            {id: 6, shape: 'circularImage', image: sqlIcon , title: 'Здесь не применялся, знаю на уровне простых запросов'},
             {id: 7, shape: 'circularImage', image: visIcon , title: 'С помощью этой библиотеки отрисовывались графы'},
-            {id: 8, shape: 'circularImage', image: adobeIcon , title: 'I have a popup!'},
-            {id: 9, shape: 'circularImage', image: reactIcon , title: 'I have a popup!'}
+            {id: 8, shape: 'circularImage', image: adobeIcon , title: 'Иногда развлекаюсь с рисованием логотипов, разработала себе логотип MEOW'},
+            {id: 9, shape: 'circularImage', image: reactIcon , title: 'Мой сайт создавался на reactsrap'}
         ];
         const edges = [
             {from: 1, to: 3},
