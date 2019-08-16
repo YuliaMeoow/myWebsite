@@ -6,7 +6,7 @@ import './styles/contact.css'
 export default class Example extends React.Component {
     render() {
       return (
-          <Container className='contact-form' href='contact'>
+          <Container className='contact-form' href='contacts'>
               <h2>Свяжитесь со мной</h2> 
             <Form>
                 <FormGroup row>
