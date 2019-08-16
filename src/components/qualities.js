@@ -5,7 +5,7 @@ import {
   CarouselControl,
   CarouselIndicators,
   CarouselCaption,
-  Row, Col, Container
+  Row, Col
 } from 'reactstrap'
 import respons from './images/qualities/respons.png'
 import work from './images/qualities/work.png'
@@ -17,24 +17,19 @@ import './styles/qualities.css'
 const items = [
     {
         src: respons,
-        altText: 'respons',
-        caption: 'Ответственно подхожу к работе и задачам.'
+        altText: 'respons'
     },
     {
         src: work,
-        altText: 'work',
-        caption: 'Люблю интересную и сложную работу.'
-        
+        altText: 'work'
     },
     {
         src: group,
-        altText: 'group',
-        caption: 'Умею слушать и учитывать разные точки зрения.'
+        altText: 'group'
     },
     {
         src: attention,
-        altText: 'attention',
-        caption: 'Всегда обращаю внимание на детали.'
+        altText: 'attention'
     }
   ];
   

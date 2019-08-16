@@ -35,10 +35,10 @@ export default class Example extends React.Component {
                 </NavItem>
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav caret> Что я умею </DropdownToggle>
-                  <DropdownMenu right>
-                    <DropdownItem href="/skills/"> Навыки </DropdownItem>
-                    <DropdownItem href="/qualities/"> Личные качества </DropdownItem>
-                  </DropdownMenu>
+                    <DropdownMenu right>
+                      <DropdownItem href="/skills/"> Навыки </DropdownItem>
+                      <DropdownItem href="/qualities/"> Личные качества </DropdownItem>
+                    </DropdownMenu>
                 </UncontrolledDropdown>
                 <NavItem>
                   <NavLink href="/contacts/"> Контакты </NavLink>
