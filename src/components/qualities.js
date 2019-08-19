@@ -6,10 +6,10 @@ import {
   CarouselIndicators,
   Row, Col
 } from 'reactstrap'
-import respons from './images/qualities/respons.png'
-import work from './images/qualities/work.png'
-import group from './images/qualities/group.png'
-import attention from './images/qualities/attention.png'
+import respons from './images/qualities/respons.jpg'
+import work from './images/qualities/work.jpg'
+import group from './images/qualities/group.jpg'
+import attention from './images/qualities/attention.jpg'
 
 import './styles/qualities.css'
 

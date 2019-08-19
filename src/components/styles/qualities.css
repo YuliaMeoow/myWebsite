@@ -2,14 +2,6 @@
     height: auto;
     width: 100%;
 }
-p {
-    color:#e2e2e2;
-    margin-bottom: 2px;
-    font-size: 2em;
-    background-color: #332d2db2;
-    font-family: 'Open Sans Condensed';
-}
 .qualities {
     position: relative;
-    margin: 150px;
 }
