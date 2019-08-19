@@ -86,7 +86,7 @@ const items = [
       return (
         <div className='qualities' href='/qualities/'>
             <Row>
-                <Col col-md='12'>
+                <Col col-md='8' col-sm='12'>
                     <Carousel 
                     activeIndex={activeIndex}
                     next={this.next}
@@ -94,8 +94,8 @@ const items = [
                     >
                     <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
                     {slides}
-                    <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-                    <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
+                    <CarouselControl direction='prev' directionText='Previous' onClickHandler={this.previous} />
+                    <CarouselControl direction='next' directionText='Next' onClickHandler={this.next} />
                     </Carousel>
                 </Col>
             </Row>
