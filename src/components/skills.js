@@ -1,5 +1,6 @@
 import React from 'react'
 import vis from 'visjs-network'
+import 'vis/dist/vis.min.css'
 
 import './styles/skills.css'
 // icons
@@ -26,7 +27,7 @@ export default class Example extends React.Component {
     componentDidMount(){
         const nodes = [
             {id: 1, shape: 'circularImage', image: html5Icon , title: 'Люблю верстать'},
-            {id: 2, shape: 'circularImage', image: css3Icon , title: 'Очень люблю верстать.'},
+            {id: 2, shape: 'circularImage', image: css3Icon , title: 'Очень люблю верстать'},
             {id: 3, shape: 'circularImage', image: jsIcon , title: 'Начинающий javaScript ниндзя'},
             {id: 4, shape: 'circularImage', image: gitIcon , title: 'Знаю основы и простейшие команды'},
             {id: 5, shape: 'circularImage', image: bootstrapIcon , title: 'Для сайта использовала реализацию Bootstrap 4 Для React'},
