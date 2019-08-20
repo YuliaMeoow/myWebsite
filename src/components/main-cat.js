@@ -8,7 +8,7 @@ export default class Example extends React.Component {
         return (
             <div className='image-cat' href='/main/'>
                 <Row>
-                    <Col lg>
+                    <Col className='lg col-md-12 col-sm-12'>
                         <h1>Hello.<br/>I'm Yulia Meow.</h1>
                     </Col>
                 </Row>

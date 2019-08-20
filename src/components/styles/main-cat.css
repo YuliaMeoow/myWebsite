@@ -9,11 +9,13 @@
 }
 
 h1 {
-    margin: 2em;
     color:#cfc7c7;
     font-size: 7em;
     font-family: 'Abel', sans-serif;
+    margin-left: 1em;
+    margin-top: 2em;
 }
+
 .arrow {
     margin: 30px;
     position: absolute;
@@ -24,8 +26,8 @@ h1 {
     display: block;
     width: 30px;
     height: 30px;
-    border-bottom: 5px solid rgb(207, 207, 207);
-    border-right: 5px solid rgb(169, 172, 173);
+    border-bottom: 5px solid #cfcfcf;
+    border-right: 5px solid #a9acad;
     transform: rotate(45deg);
     margin: -20px;
     animation: arrow 2s infinite;
