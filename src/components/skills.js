@@ -1,6 +1,7 @@
 import React from 'react'
 import vis from 'visjs-network'
 import 'vis/dist/vis.min.css'
+import { Row, Col} from 'reactstrap'
 
 import './styles/skills.css'
 // icons
@@ -16,11 +17,39 @@ import reactIcon  from './images/icons/react.png'
 
 
 export default class Example extends React.Component {
+    constructor(props) {
+        super(props);
+    
+        this.toggle = this.toggle.bind(this);
+        this.state = {
+          popoverOpen: false
+        };
+      }
+    
+      toggle() {
+        this.setState({
+          popoverOpen: !this.state.popoverOpen
+        });
+      }
     render() { 
         return(
             <div className='skills' href='/skills/'>
-                <h2>Мои навыки</h2>
-                    <div id="mynetwork"></div>
+                <h2>Что я умею</h2>
+                    <Row>
+                        <Col className='col-lg-7 col-md-12 col-sm-12'id="mynetwork"></Col>
+                        <Col className='col-lg-5 col-md-12 col-sm-12'>
+                            <div className='desc'>
+                                <p> <b>HTML/CSS/Bootstrap</b>
+                                <br/><b>JavaScript</b> - знаю на (очень) базовом уровне 
+                                <br/><b>Reactsrap</b> - использовала для создания сайта
+                                <br/><b>Vis.Network</b> - умею отрисовывать графы
+                                <br/><b>Git</b> - знаю основы и простейшие команды
+                                <br/><b>Adobe Illustrator</b> - немного рисую логотипы
+                                <br/><b>SQL</b> - знаю на уровне простых запросов
+                                </p> 
+                            </div>
+                        </Col>
+                    </Row>
             </div>
         )
     }
@@ -63,7 +92,11 @@ export default class Example extends React.Component {
             physics: {
                 maxVelocity: 160,
                 timestep: 0.35,
-                stabilization: { iterations: 150 },
+                stabilization: { iterations: 250 },
+                repulsion: {centralGravity: 0.2}
+            },
+            layout: {
+                improvedLayout: true
             }
         }
         new vis.Network(container, data, options);

@@ -7,3 +7,17 @@
     height: 700px;
     position: relative;
 }
+.desc p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: left;
+    font-size: 2em;
+    color:#424242;
+    margin: 2em;
+    line-height: 1.8;
+}
+.desc {
+    margin: 6em 0;
+    padding: 1em;
+    position: relative;
+    border-left: 2px solid #6b6b6b;
+}
