@@ -1,9 +1,28 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap");
-.nav-link , .navbar-brand, .dropdown-menu { color: #e2e2e2; cursor: pointer; font-family: 'Open Sans Condensed', sans-serif; font-size: 1.4em;}
-.navbar-brand { margin-left: 1.5em !important;}
-.nav-link { margin-right: 1.5em !important;}
-.nav-link:hover{ background: #808080; color: #000000; border-radius: 5px;}
-.navbar-collapse{ justify-content: flex-end;}
-.dropdown-menu {
-    background-color:#e0e0e0;
+.nav-link , .navbar-brand{ 
+    color: #f5f5f5; 
+    cursor: pointer; 
+    font-family: 'Open Sans Condensed', sans-serif; 
+    font-size: 1.5em;
+}
+.navbar-brand { 
+    margin-left: 1.5em !important;
+}
+.nav-link { 
+    margin-right: 1.5em !important;
+}
+.nav-link:hover { 
+    background: #808080; 
+    color: #000000; 
+    border-radius: 5px;
+}
+.navbar-collapse{ 
+    justify-content: flex-end;
+}
+
+.link {
+    color: #f5f5f5; 
+    cursor: pointer; 
+    font-family: 'Open Sans Condensed', sans-serif; 
+    font-size: 1.4em;
 }
