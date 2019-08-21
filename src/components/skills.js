@@ -27,7 +27,7 @@ export default class Example extends React.Component {
                         <div className='desc'>
                             <p> <b>HTML/CSS/Bootstrap</b>
                             <br/><b>JavaScript</b> - знаю на (очень) базовом уровне 
-                            <br/><b>React</b> - использовала реализацию Bootstrap 4 для React
+                            <br/><b>React</b> - с его помощью создавала сайт, который вы наблюдаете
                             <br/><b>Vis.Network</b> - умею отрисовывать графы
                             <br/><b>Git</b> - знаю основы и простейшие команды
                             <br/><b>Adobe Illustrator</b> - немного рисую логотипы
