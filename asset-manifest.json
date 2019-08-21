@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.3ac19fb1.chunk.css",
+    "main.js": "/website/static/js/main.3d5aa92f.chunk.js",
+    "main.js.map": "/website/static/js/main.3d5aa92f.chunk.js.map",
+    "runtime~main.js": "/website/static/js/runtime~main.de462641.js",
+    "runtime~main.js.map": "/website/static/js/runtime~main.de462641.js.map",
+    "static/css/2.4738bd4c.chunk.css": "/website/static/css/2.4738bd4c.chunk.css",
+    "static/js/2.4aa5a830.chunk.js": "/website/static/js/2.4aa5a830.chunk.js",
+    "static/js/2.4aa5a830.chunk.js.map": "/website/static/js/2.4aa5a830.chunk.js.map",
+    "index.html": "/website/index.html",
+    "precache-manifest.1684d0267b5bfd1ac60c63c03f3bb946.js": "/website/precache-manifest.1684d0267b5bfd1ac60c63c03f3bb946.js",
+    "service-worker.js": "/website/service-worker.js",
+    "static/css/2.4738bd4c.chunk.css.map": "/website/static/css/2.4738bd4c.chunk.css.map",
+    "static/css/main.3ac19fb1.chunk.css.map": "/website/static/css/main.3ac19fb1.chunk.css.map",
+    "static/media/vis.min.css": "/website/static/media/editIcon.d5422321.png",
+    "static/media/adobe.png": "/website/static/media/adobe.77ad69bb.png",
+    "static/media/attention.jpg": "/website/static/media/attention.ecc77991.jpg",
+    "static/media/bootstrap.png": "/website/static/media/bootstrap.3dc15b9e.png",
+    "static/media/css3.png": "/website/static/media/css3.d997faa6.png",
+    "static/media/git.png": "/website/static/media/git.27501ad6.png",
+    "static/media/group.jpg": "/website/static/media/group.6dbcefde.jpg",
+    "static/media/html5.png": "/website/static/media/html5.021e9ad3.png",
+    "static/media/js.png": "/website/static/media/js.d75fe854.png",
+    "static/media/main-cat.css": "/website/static/media/main1.d562f581.png",
+    "static/media/react.png": "/website/static/media/react.069f7474.png",
+    "static/media/respons.jpg": "/website/static/media/respons.773dfd99.jpg",
+    "static/media/sql.png": "/website/static/media/sql.e4b20cc2.png",
+    "static/media/vis.png": "/website/static/media/vis.bec8b117.png",
+    "static/media/work.jpg": "/website/static/media/work.6661b6e1.jpg"
+  }
+}
