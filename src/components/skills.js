@@ -17,39 +17,25 @@ import reactIcon  from './images/icons/react.png'
 
 
 export default class Example extends React.Component {
-    constructor(props) {
-        super(props);
-    
-        this.toggle = this.toggle.bind(this);
-        this.state = {
-          popoverOpen: false
-        };
-      }
-    
-      toggle() {
-        this.setState({
-          popoverOpen: !this.state.popoverOpen
-        });
-      }
     render() { 
         return(
-            <div className='skills' href='/skills/'>
+            <div className='skills'>
                 <h2>Что я умею</h2>
-                    <Row>
-                        <Col className='col-lg-7 col-md-12 col-sm-12'id="mynetwork"></Col>
-                        <Col className='col-lg-5 col-md-12 col-sm-12'>
-                            <div className='desc'>
-                                <p> <b>HTML/CSS/Bootstrap</b>
-                                <br/><b>JavaScript</b> - знаю на (очень) базовом уровне 
-                                <br/><b>Reactsrap</b> - использовала для создания сайта
-                                <br/><b>Vis.Network</b> - умею отрисовывать графы
-                                <br/><b>Git</b> - знаю основы и простейшие команды
-                                <br/><b>Adobe Illustrator</b> - немного рисую логотипы
-                                <br/><b>SQL</b> - знаю на уровне простых запросов
-                                </p> 
-                            </div>
-                        </Col>
-                    </Row>
+                <Row>
+                    <Col className='col-lg-7 col-md-12 col-sm-12'id="mynetwork"></Col>
+                    <Col className='col-lg-5 col-md-12 col-sm-12'>
+                        <div className='desc'>
+                            <p> <b>HTML/CSS/Bootstrap</b>
+                            <br/><b>JavaScript</b> - знаю на (очень) базовом уровне 
+                            <br/><b>React</b> - использовала реализацию Bootstrap 4 для React
+                            <br/><b>Vis.Network</b> - умею отрисовывать графы
+                            <br/><b>Git</b> - знаю основы и простейшие команды
+                            <br/><b>Adobe Illustrator</b> - немного рисую логотипы
+                            <br/><b>SQL</b> - знаю на уровне простых запросов
+                            </p> 
+                        </div>
+                    </Col>
+                </Row>
             </div>
         )
     }
@@ -59,7 +45,7 @@ export default class Example extends React.Component {
             {id: 2, shape: 'circularImage', image: css3Icon , title: 'Очень люблю верстать'},
             {id: 3, shape: 'circularImage', image: jsIcon , title: 'Начинающий javaScript ниндзя'},
             {id: 4, shape: 'circularImage', image: gitIcon , title: 'Знаю основы и простейшие команды'},
-            {id: 5, shape: 'circularImage', image: bootstrapIcon , title: 'Для сайта использовала реализацию Bootstrap 4 Для React'},
+            {id: 5, shape: 'circularImage', image: bootstrapIcon , title: 'Для сайта использовала реализацию Bootstrap 4 для React'},
             {id: 6, shape: 'circularImage', image: sqlIcon , title: 'Здесь не применялся, знаю на уровне простых запросов'},
             {id: 7, shape: 'circularImage', image: visIcon , title: 'С помощью этой библиотеки отрисовывались графы'},
             {id: 8, shape: 'circularImage', image: adobeIcon , title: 'Иногда развлекаюсь с рисованием логотипов, разработала себе логотип MEOW'},
