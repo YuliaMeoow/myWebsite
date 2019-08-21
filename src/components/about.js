@@ -5,7 +5,7 @@ import './styles/about.css'
 export default class Example extends React.Component {
     render() {
         return (
-            <Container className='about' href="/about/">
+            <Container className='about'>
                 <Row>
                     <Col lg='12' col-md='12' col-sm='12'> 
                         <h2>Обо мне</h2>
